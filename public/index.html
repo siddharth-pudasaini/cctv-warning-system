@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>warning system</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <h1>Warning system</h1>
+    <h2 id="roomInfo"></h2>
+    <ul id="messages"></ul>
+    <input id="room" type="text" placeholder="Type room name">
+    <button onclick="joinRoom()">Join Room</button>
+    <input id="message" type="text" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+  </body>
+</html>
